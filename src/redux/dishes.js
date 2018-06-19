@@ -1,5 +1,4 @@
 import * as ActionTypes from './ActionTypes';
-import { SSL_OP_ALLOW_UNSAFE_LEGACY_RENEGOTIATION } from 'constants';
 
 export const Dishes = (state = {
     isLoading: true,
@@ -17,6 +16,6 @@ export const Dishes = (state = {
             return {...state, isLoading: false, errMess: action.payload };
     
         default:
-          return state;
+            return state;
       }
 };

@@ -5,6 +5,7 @@
   "dependencies": {
     "bootstrap": "^4.1.1",
     "bootstrap-social": "^5.1.1",
+    "cross-fetch": "^2.2.1",
     "font-awesome": "^4.7.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
